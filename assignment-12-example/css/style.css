@@ -1,0 +1,125 @@
+div{
+    text-align: left;
+    line-height: 1.45em;
+    font-family: Merriweather, sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+h1, h3, h5{
+    text-align: center;
+    font-family: FiraSans, sans-serif;
+    
+}
+.opening-paragraph{
+    color: #244523;
+    font-size: 20px;
+    text-indent: 10px;
+    font-weight:700;
+}
+
+.opening-paragraph::first-line{
+    font-size: 30px;
+}
+.second-paragraph{
+    font-size: 16px;
+}
+
+#book_info{
+    text-decoration: none;
+    font-family: Merriweather, sans-serif;
+}
+#book_info:hover{
+    font-family:  Merriweather, sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+table{
+    border: 1px dashed black;
+    font-family:  FiraSans, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
+
+p{
+    font-family:  Merriweather, sans-serif;
+}
+
+/* Set your header design: */
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #26272b;
+    font-family: Merriweather;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: left;
+}
+
+/* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #26272b;
+    padding: 0.5em 1em;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: gray;
+   
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: black;
+    background-color: #a2a2a2;
+}
+
+.mainimage{
+    float: left;
+}
+
+.bookcover{
+    float:right;
+}
