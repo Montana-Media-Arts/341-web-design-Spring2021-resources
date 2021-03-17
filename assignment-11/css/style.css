@@ -1,0 +1,45 @@
+div{
+    text-align: left;
+    line-height: 1.45em;
+    font-family: Merriweather, sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+h1, h3, h5{
+    text-align: center;
+    font-family: FiraSans, sans-serif;
+    
+}
+.opening-paragraph{
+    color: #244523;
+    font-size: 20px;
+    text-indent: 10px;
+    font-weight:700;
+}
+
+.opening-paragraph::first-line{
+    font-size: 30px;
+}
+.second-paragraph{
+    font-size: 16px;
+}
+
+#book_info{
+    text-decoration: none;
+    font-family: Merriweather, sans-serif;
+}
+#book_info:hover{
+    font-family:  Merriweather, sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+table{
+    border: 1px solid black;
+    font-family:  FiraSans, sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family:  Merriweather, sans-serif;
+}
