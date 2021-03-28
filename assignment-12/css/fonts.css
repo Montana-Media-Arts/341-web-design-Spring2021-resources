@@ -1,0 +1,22 @@
+/* This is the file, "fonts.css." */
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Regular.ttf') format('truetype');
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+ }
+ 
+ @font-face {
+   font-family: 'Merriweather';
+   src: url('../fonts/Merriweather-Regular.ttf') format('truetype');
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Merriweather';
+   src: url('../fonts/Merriweather-Bold.ttf') format('truetype');
+   font-weight: 700;
+}
